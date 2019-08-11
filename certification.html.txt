@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="certification.css">
+</head>
+<body>
+<div class="container">
+<a href="img/data_structures.pdf" class="button"><span>&#10004;</span>Python Data Structures</a>
+<a href="img/python.pdf" class="button orange"><span>&#10004;</span>Getting Started with Python</a>
+<a href="img/hacker.pdf" class="button purple"><span>&#10004;</span>Certified Ethical Hacker</a>
+<a href="#" class="button turquoise"><span>&#10004;</span>Android App Development</a>
+<a href="#" class="button red"><span>&#10004;</span>core java</a>
+</div>
+
+<div class="copyright">
+  Done by Akhila </a>   
+</div>
+</body>
+</html>

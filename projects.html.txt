@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="projects.css">
+</head>
+<body>
+<h1>My Projects</h1>
+<section id="projects">
+  <div class="project">
+    <a href="https://github.com/akhilamurari/car-rental-co"></a>
+    <div class="infos">
+      <div class="text">
+        <h3>car-rental-co</h3>
+        <p>Project 1</p>
+        <p>Car rental & co is an online application which is used to hire cars. Car rental agencies primarily serve people who have a car that is temporarily out of reach or out of service, for example travellers who are out of town or owners of damaged or destroyed vehicles who are awaiting repair or insurance compensation. Because of the variety of sizes of their vehicles, car rental agencies may also serve the self- moving industry needs, by renting vans or trucks. Apart from this, people who travel to foreign country, for their transportation needs rent a car as it is cost efficient and comfortable.</p>
+      </div>
+    </div>
+    <div class="image">
+      <img src="img/car2.jpg">
+    </div>
+  </div>
+   <div class="project">
+    <a href="https://github.com/akhilamurari/Hackday-Albania"></a>
+    <div class="infos">
+      <div class="text">
+        <h3>Hackday-Albania</h3>
+        <p>Project 2</p>
+        <p>VulnHub was born to cover as many as possible, creating a catalogue of 'stuff' that is (legally) 'breakable, hackable & exploitable' - allowing you to learn in a safe environment and practise 'stuff' out. In vulhub you can practice your hacking skills through CTF (CAPTURE THE FLAG).
+        It is one of the CTF FROM Vulnhub.com
+The level is beginner to intermediate .
+This challenge is all about cracking ubuntu os and finding the flag, There are different approaches to capture the flag this is the one method among them.</p>
+      </div>
+    </div>
+    <div class="image">
+      <img src="img/hub.jpg">
+    </div>
+  </div>
+   <div class="project">
+    <a href="https://github.com/akhilamurari/Video_Capture"></a>
+    <div class="infos">
+      <div class="text">
+        <h3>Video_Capture</h3>
+        <p>Project 3</p>
+        <p>Video capture is the process of converting an analog video signal—such as that produced by a video camera, DVD player, or television tuner—to digital video and sending it to local storage or to external circuitry. The resulting digital data are referred to as a digital video stream, or more often, simply video stream. Depending on the application, a video stream may be recorded as computer files, or sent to a video display, or both.</p>
+      </div>
+    </div>
+    <div class="image">
+      <img src="img/video_acp.png">
+    </div>
+  </div>
+<div class="project">
+    <a href="https://github.com/akhilamurari/Image_converter"></a>
+    <div class="infos">
+      <div class="text">
+        <h3>Image_converter</h3>
+        <p>Project 4</p>
+        <p>Image_converter in the sence converting the color of an image, form colored to black and white and viceversa. if we keep imread value as 0 it will show black and white picture. if we keep imread value as 1 it will show colored image.</p>
+      </div>
+    </div>
+    <div class="image">
+      <img src="img/Image_con.png">
+    </div>
+  </div>
+  <div class="project">
+    <a href="https://github.com/akhilamurari/Bug-Hunting-Through-Web-Application-Penetration-Testing-"></a>
+    <div class="infos">
+      <div class="text">
+        <h3>Bug-Hunting-Through-Web-Application-Penetration-Testing</h3>
+        <p>Project 5</p>
+        <p>This will help the web developers in building a robust and secured web application. This project “Bug Hunting           through Web Application Penetration Testing” is a real time project. The main aim of the project is securing an existing Web Application Platform from bugs. </p>
+      </div>
+    </div>
+    <div class="image">
+      <img src="img/bug.jpg">
+    </div>
+  </div>
+<div class="project">
+    <a href="https://github.com/akhilamurari/Currency_Checker"></a>
+    <div class="infos">
+      <div class="text">
+        <h3>Currency_Checker </h3>
+        <p>Internship Project </p>
+        <p>Logical currency checker is the distribution of real time currency checker system. It is a device that determines whether currency is genuine or counterfeit via android mobiles in a water fall model. Image processing is a method to convert an image into digital form and perform some operations on it, in order to get an enhanced image or to extract some useful information from it. It is a type of signal dispensation in which input is image, like photograph and output may be real or fake currency.</p>
+      </div>
+    </div>
+    <div class="image">
+      <img src="img/check1.png" style="height: 1100px; width: 1100px">
+    </div>
+  </div>
+</section>
+</body>
+</html>

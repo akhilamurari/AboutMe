@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+
+		body {
+  background-color: #f2f2f2;
+  font-family: 'Lato', sans-serif;
+  font-size: 21px;
+  text-align: center;
+  overflow: hidden;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  margin: 0;
+}
+
+
+
+.container {
+  margin-top: 100px;
+  width: 100vw;
+  height: 300px;
+  /*margin: 100px auto;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+  /*background: #fff;*/
+  position: relative;
+  top: 10%;
+}
+
+/* button */
+.button{
+  display: flex;
+  float: left;
+  /*z-index: ;*/
+  position: relative;
+  text-decoration: none;
+  color: #333;
+  border: 3px solid #333333;
+  padding: 20px 30px;
+  margin: 40px;
+}
+
+
+/* blue border offset */
+.button:after {
+  content: '';
+  border: 3px solid #3600fc;
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /*z-index: -1;*/
+  color: #f2f2f2;
+  white-space:nowrap;
+}
+
+/* grey border position */
+.button:active {
+  top: 3px;
+  left: 3px;
+  /*z-index: -1;*/
+}
+
+/* blue border position */
+.button:active:after{
+  top: 2px;
+  left: 2px;
+  /*z-index: -1;*/
+}
+
+/* fill background color */
+.button:hover{
+  background: rgba(242,242,242,1);
+  /*background: #000;*/
+}
+.buttons{
+  justify-content: center;
+}
+.links{
+  display: flex;
+  justify-content: space-around;
+}
+
+.by {
+  display: block;
+  float: left;
+  width: 100%;
+}
+/* Footer - Social Media icons. */
+table {
+  margin: 0px auto;
+  float: none;
+}
+
+.icons {
+  text-decoration: none;
+  opacity: .9;
+  padding: 4%;
+}
+@media only screen and (max-width:725px){
+  body{
+      /*background: white;*/
+  }
+  .container{
+    margin-top: 30%;
+    /*height: 110vh;*/
+    /*flex-direction: row;*/
+    /*background: blue;*/
+  }
+  .buttons{
+      /*flex-direction: column;*/
+      display: flex;
+      flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="buttons"><a href="aboutme.html" class="button">About Me</a>
+  
+<a href="certification.html" class="button">Certifications</a>
+  
+<a href="projects.html" class="button">Projects</a></div>
+<div class="links"><a href="https://www.linkedin.com/in/murari-akhila-bba41016a/" target="_blank">Linkdedin</a> and <a href="https://github.com/akhilamurari" target="_blank">Github</a></div>
+</div>
+  
+ </p>
+ <table>
+  <td class="icons"><a href="https://github.com/makesi"><i class="fa fa-github-square fa-3x"></i></a></td>
+  <td class="icons"><a href="https://www.facebook.com/marcozapata.jr"><i class="fa fa-facebook-square fa-3x"></i></a></td>
+
+
+  <td class="icons"><a href="https://www.freecodecamp.com/makesi"><i class="fa fa-fire fa-3x"></i></a></td>
+
+
+  <td class="icons"><a href="https://www.linkedin.com/in/marco-zapata-358978a1?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin-square fa-3x"></i></a></td>
+  <td class="icons"><a href="https://twitter.com/MAZG_10"><i class="fa fa-twitter-square fa-3x"></i></a></td>
+</table>
+</body>
+</html>
